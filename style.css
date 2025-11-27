@@ -101,7 +101,7 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     flex: auto;
-    gap: 20px;
+    gap: 50px;
 }
 
 .photo-text {
@@ -173,6 +173,7 @@ button {
 
 .signup2 {
     border: solid 1px white;
+    border-radius: 5px;
 }
 
 .footer {
