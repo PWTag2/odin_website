@@ -1,5 +1,6 @@
 * {
     font-family: 'Roboto';
+    border: solid 1px red;
 }
 
 html, body {
@@ -75,18 +76,25 @@ button {
     margin: 0;
 }
 
-.text {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    gap: 0;
-}
-
 .text > * {
     margin: 0;
 }
 
+.text {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    gap: 5px;
+}
 
+.signup1 {
+    padding-top: 5px;
+}
+
+.big-image {
+    width: 200px;
+    height: auto;
+}
 
 .content {
     display: flex;
